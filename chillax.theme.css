@@ -72,9 +72,9 @@
 :root {
     --user-name: "King";
     --edited-message: " EDITED ✎ ";
-    --font-name: Poppins;
+    --font-name: "JetBrains Mono";
     --font-size: 13px;
-    --group-chat-font: "Monoton"; /* change this to change the group chat's default font */
+    --group-chat-font: "JetBrains Mono"; /* change this to change the group chat's default font */
 
 
     /*glow radial status*/ /*must end in px*/
