@@ -240,3 +240,37 @@
 .flex_bba380 button:nth-of-type(3){
     border-radius: 0 5px 5px 0;
 }
+/* Change the Discord Logo to something custom */
+.childWrapper_f90abb img {
+    content: url("https://raw.githubusercontent.com/Chillax-ORG/Images/refs/heads/main/blacklogo.png");
+} /* change the url to your fav logo (I recommend 50x50 or similar) */
+
+.childWrapper_f90abb svg {
+    display: none;
+}
+
+.childWrapper_f90abb  {
+    content: url("https://raw.githubusercontent.com/Chillax-ORG/Images/refs/heads/main/blacklogo.png");
+} /* change the url to your fav logo (I recommend 50x50 or similar) */
+.channelTextArea_bdf0de {
+    background: rgba(0, 0, 0, .6);
+    transition: all .15s ease-in-out;
+}
+
+.channelTextArea_bdf0de .scrollableContainer_bdf0de {
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+.channelTextArea_bdf0de:focus-within {
+    box-shadow: 0 0 2px 2px #2780e6;
+}
+/* adds border radius when hovering over dms */
+ul[aria-label="Direct Messages"] .channel_c91bad.container_d91ad9 {
+    max-width: 213px !important; /* this is something you can also adjust */
+}
+
+ul[aria-label="Direct Messages"] .channel_c91bad.container_d91ad9 .interactive_f5eb4b.interactive_c91bad:hover {
+    border-radius: 25px !important; /* adjust as per your liking */
+    background-color: rgba(30, 204, 70, 0.733); /* adjust as per your liking */
+    transform: scale(1.059); /* determines how big it gets when hovered */
+}
