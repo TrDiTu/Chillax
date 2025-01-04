@@ -70,9 +70,9 @@
 
 /*roots*/ /*both dark and light*/
 :root {
-    --user-name: "King";
+    --user-name: "dtung";
     --edited-message: " EDITED ✎ ";
-    --font-name: "JetBrains Mono";
+    --font-name: Poppins;
     --font-size: 13px;
     --group-chat-font: "JetBrains Mono"; /* change this to change the group chat's default font */
 
