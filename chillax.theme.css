@@ -209,3 +209,34 @@
 =================================================================
 */
 /*I really want to give a special shoutout to all of you for supporting me in this theme, thank you all.*/
+/*NOTE: some cool snipsets from community*/
+/* Title bar background image */
+.typeWindows_a934d8::before {
+    /* Use 44px for default theme, or 22px for theme with no margin */
+    height: 22px;
+    /* height: 44px; */
+
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-image: url('https://media1.tenor.com/m/mc9-3cypZEYAAAAC/rainbow-line.gif');
+    background-size: cover;
+}
+/*Changed the bottom left panel buttons look to make them more "united" (not theme dependent)*/
+.flex_bba380 button{
+    box-shadow: none !important;
+}
+
+.flex_bba380 button:first-of-type{
+    border-radius: 5px 0 0 5px;
+}
+
+.flex_bba380 button:nth-of-type(2){
+    border-radius: 0;
+}
+
+.flex_bba380 button:nth-of-type(3){
+    border-radius: 0 5px 5px 0;
+}
