@@ -213,8 +213,8 @@
 /* Title bar background image */
 .typeWindows_a934d8::before {
     /* Use 44px for default theme, or 22px for theme with no margin */
-    height: 22px;
-    /* height: 44px; */
+    /* height: 22px; */
+     height: 44px; 
 
     content: "";
     position: absolute;
