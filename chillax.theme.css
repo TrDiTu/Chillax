@@ -243,7 +243,7 @@
 }
 /* Change the Discord Logo to something custom */
 .childWrapper_f90abb img {
-    content: url("https://raw.githubusercontent.com/Chillax-ORG/Images/refs/heads/main/blacklogo.png");
+    content: url("https://raw.githubusercontent.com/TrDiTu/Chillax/refs/heads/main/public/Pictures/Logo.jpg");
 } /* change the url to your fav logo (I recommend 50x50 or similar) */
 
 .childWrapper_f90abb svg {
@@ -251,7 +251,7 @@
 }
 
 .childWrapper_f90abb  {
-    content: url("https://raw.githubusercontent.com/Chillax-ORG/Images/refs/heads/main/blacklogo.png");
+    content: url("https://raw.githubusercontent.com/TrDiTu/Chillax/refs/heads/main/public/Pictures/Logo.jpg");
 } /* change the url to your fav logo (I recommend 50x50 or similar) */
 .channelTextArea_bdf0de {
     background: rgba(0, 0, 0, .6);
