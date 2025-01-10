@@ -19,6 +19,8 @@
           ╚════╝   ╚═╝  ╚═╝  ╚═╝  ╚══════╝ ╚══════╝ ╚═╝  ╚═╝  ╚═╝  ╚═╝
   ╰─ ━━━━━━━━━ ━━━━━━━ ━━━━━━━━━ -ˋˏ ༻-༺ ˎˊ- ━━━━━━━━━ ━━━━━━━ ━━━━━━━━━ ─╯
 */
+/*NOTE: Font change*/
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
 /* CHILLAX theme entry point */
 @import url("https://warrayquipsome.github.io/Chillax/chillax.css");
@@ -73,8 +75,8 @@
 :root {
     --user-name: "dtung";
     --edited-message: " EDITED ✎ ";
-    --font-name: Poppins;
-    --font-size: 13px;
+    --font-name: "JetBrains Mono"; /* change this to change the default font */
+    --font-size: 15px;
     --group-chat-font: "JetBrains Mono"; /* change this to change the group chat's default font */
 
 
@@ -221,9 +223,9 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 90%;
-    background-image: url('https://media1.tenor.com/m/mc9-3cypZEYAAAAC/rainbow-line.gif');
-    background-size: cover;
+    width: 100%;
+    background-image: url('https://raw.githubusercontent.com/TrDiTu/Chillax/refs/heads/main/public/Pictures/skibidi-skibidi-toilet.gif');
+    background-size: auto;
 }
 /*Changed the bottom left panel buttons look to make them more "united" (not theme dependent)*/
 .flex_bba380 button{
