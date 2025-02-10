@@ -1,8 +1,8 @@
 /**
- * @name Chillax
+ * @name Chillax 
  * @author Chillax Squad
  * @authorLink https://github.com/warrayquipsome/Chillax#Authors
- * @version 2.0.0
+ * @version 1.5.3
  * @invite DrfX6286kF
  * @description The theme where calm meets customization.
  * @source https://github.com/warrayquipsome/Chillax
@@ -19,14 +19,13 @@
           ╚════╝   ╚═╝  ╚═╝  ╚═╝  ╚══════╝ ╚══════╝ ╚═╝  ╚═╝  ╚═╝  ╚═╝
   ╰─ ━━━━━━━━━ ━━━━━━━ ━━━━━━━━━ -ˋˏ ༻-༺ ˎˊ- ━━━━━━━━━ ━━━━━━━ ━━━━━━━━━ ─╯
 */
-/*NOTE: Change the font here*/
+/*NOTE: Font change*/
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@150&display=swap');
 
 /* CHILLAX theme entry point */
 @import url("https://warrayquipsome.github.io/Chillax/chillax.css");
 
 /* removable addons */
-@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css");
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
 @import url("https://nyri4.github.io/Discolored/main.css");
 @import url("https://warrayquipsome.github.io/Chillax/Addons/IconPackEdited.css");
@@ -34,36 +33,23 @@
 @import url("https://warrayquipsome.github.io/Chillax/Addons/FolderRedesign.css");
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 @import url("https://warrayquipsome.github.io/Chillax/Addons/FriendGrid.css");
-@import url("https://warrayquipsome.github.io/Chillax/Addons/ColoredLinks.css");
+@import url('https://tropix126.github.io/BetterDiscordStuff/friendgrid/v3/css/base.css');
 
 /*additional addons*/ /*(remove the both * to use)*/
-/*use the below css if you are experiencing lag (remove the both * to use)*/
 /*@import url("https://warrayquipsome.github.io/Chillax/Addons/SimpleLessLag.css");*/
-/* To hide annoying elements such as nitro, shop, sticker picker etc tab (remove the both * to use)*/
-/*@import url("https://warrayquipsome.github.io/Chillax/Addons/HideAnnoyingElements.css");*/
 
 
 /*Chillax Roots*/
 :root {
-
     /*background image*/ /*(replace the link to use)*/
-
     --background-image: var(--modern-dark-bg);
-
     --bg-opacity: 95%;
-
     /*bg dev suggestions*/
-
     --wallpaper: url("https://raw.githubusercontent.com/TrDiTu/Chillax/refs/heads/main/Wallpapers/main.jpg");
-
     /*modern background selection*/
-
     --modern-dark-bg: url("https://raw.githubusercontent.com/TrDiTu/Chillax/refs/heads/main/Wallpapers/main.jpg");
-
     --modern-light-bg: url("https://raw.githubusercontent.com/TrDiTu/Chillax/refs/heads/main/Wallpapers/main.jpg");
-
 }
-
 
 
 /*window*/ /*dark mode*/
@@ -87,9 +73,9 @@
 
 /*roots*/ /*both dark and light*/
 :root {
-    --user-name: "Cyra";
+    --user-name: "dtung";
     --edited-message: " EDITED ✎ ";
-    --font-name: "JetBrains Mono";
+    --font-name: "JetBrains Mono"; /* change this to change the default font */
     --font-size: 15px;
     --group-chat-font: "JetBrains Mono"; /* change this to change the group chat's default font */
 
@@ -125,13 +111,13 @@
     --settingsmodalheight: 80vh;
 
     /* avatar only member list */
-    --memberlist-border-radius: 10px; /* can be in `px`, `rem`, `em` */
+    --memberlist-border-radius: 25px; /* can be in `px`, `rem`, `em` */
 
     /* placeholder texts/values */
     /* input fields */
     --chillax-input-field: "Life is so much easier when you just take a moment to chill";
     /* input fields  when the channel is locked*/
-    --chillax-input-field-locked: "Unfortunately, you can't chill in this channel";
+    --chillax-input-field-locked: "Life is so much easier when you just take a moment to chill";
     /* typing indicator: when a single person is typing */
     --chillax-input-typing-indicator-one-person: "is smashing some buttons";
     /* typing indicator: when more than one person is typing */
@@ -226,3 +212,68 @@
 =================================================================
 */
 /*I really want to give a special shoutout to all of you for supporting me in this theme, thank you all.*/
+/*NOTE: some cool snipsets from community*/
+/* Title bar background image */
+.typeWindows_a934d8::before {
+    /* Use 44px for default theme, or 22px for theme with no margin */
+    /* height: 22px; */
+     height: 44px; 
+
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-image: url('https://raw.githubusercontent.com/TrDiTu/Chillax/refs/heads/main/public/Pictures/skibidi-skibidi-toilet.gif');
+    background-size: auto;
+}
+/*Changed the bottom left panel buttons look to make them more "united" (not theme dependent)*/
+.flex_bba380 button{
+    box-shadow: none !important;
+}
+
+.flex_bba380 button:first-of-type{
+    border-radius: 5px 0 0 5px;
+}
+
+.flex_bba380 button:nth-of-type(2){
+    border-radius: 0;
+}
+
+.flex_bba380 button:nth-of-type(3){
+    border-radius: 0 5px 5px 0;
+}
+/* Change the Discord Logo to something custom */
+.childWrapper_f90abb img {
+    content: url("https://raw.githubusercontent.com/TrDiTu/Chillax/refs/heads/main/public/Pictures/Logo.jpg");
+} /* change the url to your fav logo (I recommend 50x50 or similar) */
+
+.childWrapper_f90abb svg {
+    display: none;
+}
+
+.childWrapper_f90abb  {
+    content: url("https://raw.githubusercontent.com/TrDiTu/Chillax/refs/heads/main/public/Pictures/Logo.jpg");
+} /* change the url to your fav logo (I recommend 50x50 or similar) */
+.channelTextArea_bdf0de {
+    background: rgba(0, 0, 0, .6);
+    transition: all .15s ease-in-out;
+}
+
+.channelTextArea_bdf0de .scrollableContainer_bdf0de {
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+.channelTextArea_bdf0de:focus-within {
+    box-shadow: 0 0 2px 2px #2780e6;
+}
+/* adds border radius when hovering over dms */
+ul[aria-label="Direct Messages"] .channel_c91bad.container_d91ad9 {
+    max-width: 213px !important; /* this is something you can also adjust */
+}
+
+ul[aria-label="Direct Messages"] .channel_c91bad.container_d91ad9 .interactive_f5eb4b.interactive_c91bad:hover {
+    border-radius: 25px !important; /* adjust as per your liking */
+    background-color: rgba(30, 204, 70, 0.733); /* adjust as per your liking */
+    transform: scale(1.059); /* determines how big it gets when hovered */
+}
